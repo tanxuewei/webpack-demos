@@ -1,0 +1,112 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.15.0",
+  "hash": "b0a3726f05378ff4a737",
+  "time": 42,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": "bundle.js"
+  },
+  "assets": [
+    {
+      "name": "bundle.js",
+      "size": 1410,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 20,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "hash": "d23c760e1bed8709f024",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/shirley/FE/project/webpack/demo01/index.js",
+          "name": "./index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 20,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 12,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "console.log('index')"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/Users/shirley/FE/project/webpack/demo01/index.js",
+          "moduleIdentifier": "/Users/shirley/FE/project/webpack/demo01/index.js",
+          "moduleName": "./index.js",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/shirley/FE/project/webpack/demo01/index.js",
+      "name": "./index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 20,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 12,
+        "building": 9
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "console.log('index')"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

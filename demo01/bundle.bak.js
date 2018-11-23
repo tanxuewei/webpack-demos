@@ -5,6 +5,4 @@
   ...
 })])
 
-(function(){
-
-})(...)
+(function(module){})([function(){},function(){}]);

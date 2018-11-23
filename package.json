@@ -31,5 +31,8 @@
     "webpack": "1.x",
     "webpack-dev-server": "1.x"
   },
-  "repository": "tanxuewei/webpack"
+  "repository": "tanxuewei/webpack",
+  "devDependencies": {
+    "webpack-webstorm-debugger-script": "^1.0.1"
+  }
 }
