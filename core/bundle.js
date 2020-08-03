@@ -11,6 +11,7 @@ const getModuleInfo = (file) => {
   })
   // console.log(ast.program.body)
 
+  // 遍历AST收集依赖
   const deps = {}
   traverse(ast, {
     ImportDeclaration({node}) {
