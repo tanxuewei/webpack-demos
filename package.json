@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "webpack-demos",
   "version": "1.0.0",
   "description": "webpack",
   "main": "index.js",
@@ -31,6 +31,7 @@
     "react-router": "2.x",
     "style-loader": "0.x",
     "url-loader": "~0.5.6",
+    "webpack": "^4.44.1",
     "webpack-dev-server": "1.x"
   },
   "repository": "tanxuewei/webpack",
