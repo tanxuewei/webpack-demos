@@ -9,7 +9,8 @@ module.exports = {
       {
         test: /\.txt$/,
         use: [
-          './src/myloader2.js','./src/myloader1.js'
+          // './src/myloader2.js',
+          './src/myloader1.js'
         ]
       }
     ]

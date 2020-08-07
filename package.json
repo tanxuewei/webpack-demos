@@ -9,6 +9,7 @@
     "webpack"
   ],
   "scripts": {
+    "start": "http-server webpack -c-1 -p4000",
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
@@ -27,6 +28,7 @@
     "file-loader": "0.x",
     "history": "^1.17.0",
     "html-webpack-plugin": "2.x",
+    "http-server": "^0.12.3",
     "jquery": "3.x",
     "jsx-loader": "~0.13.2",
     "lodash": "^4.17.19",
