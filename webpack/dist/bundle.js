@@ -93,53 +93,53 @@
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-const sum = (a, b) => {
-  return a + b
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (sum);
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add.js */ "./src/add.js");
-/* harmony import */ var _minus_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./minus.js */ "./src/minus.js");
-
-
-
-const sum = Object(_add_js__WEBPACK_IMPORTED_MODULE_0__["default"])(1, 2)
-const division = Object(_minus_js__WEBPACK_IMPORTED_MODULE_1__["minus"])(2, 1)
-
-console.log(sum)
-console.log(division)
-
-/***/ }),
-
-/***/ "./src/minus.js":
-/*!**********************!*\
-  !*** ./src/minus.js ***!
-  \**********************/
-/*! exports provided: minus */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "minus", function() { return minus; });
-const minus = (a, b) => {
-  return a - b
-}
-
-/***/ })
-
-/******/ });
-//# sourceMappingURL=bundle.js.map
+  "use strict";
+  __webpack_require__.r(__webpack_exports__);
+  const sum = (a, b) => {
+    return a + b
+  }
+  
+  /* harmony default export */ __webpack_exports__["default"] = (sum);
+  
+  /***/ }),
+  
+  /***/ "./src/index.js":
+  /*!**********************!*\
+    !*** ./src/index.js ***!
+    \**********************/
+  /*! no exports provided */
+  /***/ (function(module, __webpack_exports__, __webpack_require__) {
+  
+  "use strict";
+  __webpack_require__.r(__webpack_exports__);
+  /* harmony import */ var _add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add.js */ "./src/add.js");
+  /* harmony import */ var _minus_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./minus.js */ "./src/minus.js");
+  
+  
+  
+  const sum = Object(_add_js__WEBPACK_IMPORTED_MODULE_0__["default"])(1, 2)
+  const division = Object(_minus_js__WEBPACK_IMPORTED_MODULE_1__["minus"])(2, 1)
+  
+  console.log(sum)
+  console.log(division)
+  
+  /***/ }),
+  
+  /***/ "./src/minus.js":
+  /*!**********************!*\
+    !*** ./src/minus.js ***!
+    \**********************/
+  /*! exports provided: minus */
+  /***/ (function(module, __webpack_exports__, __webpack_require__) {
+  
+  "use strict";
+  __webpack_require__.r(__webpack_exports__);
+  /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "minus", function() { return minus; });
+  const minus = (a, b) => {
+    return a - b
+  }
+  
+  /***/ })
+  
+  /******/ });
+  //# sourceMappingURL=bundle.js.map
