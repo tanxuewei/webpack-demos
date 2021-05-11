@@ -31,7 +31,7 @@
     "http-server": "^0.12.3",
     "jquery": "3.x",
     "jsx-loader": "~0.13.2",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "lodash-es": "^4.17.15",
     "open-browser-webpack-plugin": "0.x",
     "react": "15.x",
